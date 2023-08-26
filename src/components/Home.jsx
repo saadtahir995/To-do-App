@@ -20,7 +20,6 @@ export default function Home() {
   }
 
   useEffect(() => {
-    setDarkMode(isDarkReaderEnabled());
     const data = localStorage.getItem('task');
     const compdata = localStorage.getItem('completed');
     try {
